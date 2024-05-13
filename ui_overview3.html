@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Baldur's Gate 2 Manual</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <nav id="navbar">
+        <header>Baldurs Gate 2 Manual</header>
+        <ul>
+            <li><a class="nav-link" href="index.html">Introduction</a></li>
+            <li><a class="nav-link" href="char_generation.html">Character Generation</a></li>
+            <li><a class="nav-link" href="ui_overview.html">Interface Overview</a></li>
+            <li><a class="nav-link" href="ui_overview2.html">Interface Overview 2</a></li>
+            <li><a class="nav-link" href="ui_overview3.html">Interface Overview 3</a></li>
+            <li><a class="nav-link" href="ui_overview4.html">Interface Overview 4</a></li>
+            <li><a class="nav-link" href="multiplayer.html">Multiplayer</a></li>
+        </ul>
+    </nav>
+    <main id="main-doc">
+        <section id="intro" class="main-section">
+            <header id="RMB">Right Menu Buttons</header>
+            <br>
+            <div class="container">
+                <div class="divRMB">
+                    <img src="./images/bg2 icon_select.png" id="picsRMB">
+                    <p id="picsRMBText"><strong>Select Tool:</strong> When playing with a touchscreen, selecting this
+                        tool will allow you to
+                        select one or more characters with a touch. This tool will also cancel any spell
+                        currently selected, or any other action that requires you to select a target</p>
+                </div>
+                <div class="divRMB">
+                    <img src="./images/bg2 icon_help.png" id="picsRMB">
+                    <p id="picsRMBText"><strong>Help Tool:</strong> When playing with a touchscreen, selecting this tool
+                        will allow you to view
+                        items on the screen with which you can interact. This will display chests, doors, and
+                        items on the ground, as well as the current hit points of all NPCs in your party. On PC
+                        and Mac platforms, you can achieve this same function by pressing the Tab key on
+                        your keyboard.</p>
+                </div>
+                <div class="divRMB">
+                    <img src="./images/bg2 icon_selectAll.png" id="picsRMB">
+                    <p id="picsRMBText"><strong>Select All: </strong> Selects or unselects all members of the party.
+                        This includes summoned or
+                        allied creatures if available.</p>
+                </div>
+                <div class="divRMB">
+                    <img src="./images/bg2 icon_partyAI.png" id="picsRMB">
+                    <p id="picsRMBText"><strong>Select All: </strong> Turning this option on or off will change whether
+                        or not members of the
+                        party will behave based on their selected scripts.</p>
+                </div>
+                <div class="divRMB">
+                    <img src="./images/bg2 icon_partyFace.png" id="picsRMB">
+                    <p id="picsRMBText"><strong>Character Portraits: </strong> L-clicking a portrait selects that
+                        character; R-clicking the same
+                        portrait brings up the Inventory screen for that character. You can also reorganize
+                        your party by clicking and dragging portraits up and down the list.</p>
+                    <em>
+                        <p>A Note on Character Portraits: Damage to the character is represented on the
+                            character portrait as a rising red bar (that is, the portion of the portrait that is the
+                            normal color is the portion of hit points still remaining for that character). If you
+                            move your cursor over the portrait of a character, the hit point total and the name of
+                            that character will appear along with that character’s maximum hit points. Character
+                            portraits also display status icons (if your character is charmed, held, and so on) as
+                            well as the plus-shaped level-up icon if one of your characters has enough experience
+                            points to gain a level.</p>
+                    </em>
+                </div>
+            </div>
+        </section>
+        <section>
+            <header>Left Menu Buttons</header>
+            <br>
+            <article>
+                <div class="container">
+                    <div class="divRMB">
+                        <img src="./images/bg2 icon_return.png" id="picsRMB">
+                        <p id="picsRMBText"><strong>Return to Game: </strong> Clicking this button will return you to
+                            the main screen of the game
+                            from whichever screen you were previously viewing. This button does nothing if you
+                            are already on the main screen</p>
+                    </div>
+                    <div class="divRMB">
+                        <img src="./images/bg2 icon_map.png" id="picsRMB">
+                        <p id="picsRMBText"><strong>Map: </strong> This button will bring up the map of the current
+                            area. From this screen, you can
+                            also view a map of the world, although you cannot travel using your map. (To travel
+                            between areas, move your party to the area’s exit.)</p>
+                    </div>
+                    <div class="divRMB">
+                        <img src="./images/bg2 icon_journal.png" id="picsRMB">
+                        <p id="picsRMBText"><strong>Journal: </strong> Quest logs and reminders are frequently added to
+                            your journal to be
+                            reviewed later. Clicking this button will open up that screen and allow you to read
+                            previous journal entries.</p>
+                    </div>
+                    <div class="divRMB">
+                        <img src="./images/bg2 icon_inventory.png" id="picsRMB">
+                        <p id="picsRMBText"><strong>Inventory: </strong> his button brings up the Inventory screen for
+                            the currently selected
+                            character or, if more than one character is selected, the Inventory screen for the top-
+                            most selected character. (If no character is selected, the party leader’s inventory will
+                            be displayed.)</p>
+                    </div>
+                    <div class="divRMB">
+                        <img src="./images/bg2 icon_charRecord.png" id="picsRMB">
+                        <p id="picsRMBText"><strong>Character Record: </strong> This button brings up the Character
+                            Record screen, which allows
+                            you to view the current character’s ability scores, class abilities, THAC0, and other
+                            traits. This is also the screen from which you can level-up your character if he or she
+                            has earned enough experience points.</p>
+                    </div>
+                    <div class="divRMB">
+                        <img src="./images/bg2 icon_spellsWizard.png" id="picsRMB">
+                        <p id="picsRMBText"><strong>Wizard Spells: </strong> This button brings up the selected
+                            character’s spellbook, displaying all
+                            of the character’s known wizard spells and allowing you to select which ones to
+                            memorize (if the character is a Mage). Note that these spells will not be available for
+                            casting until after you’ve rested.</p>
+                    </div>
+                    <div class="divRMB">
+                        <img src="./images/bg2 icon_spellsPriest.png" id="picsRMB">
+                        <p id="picsRMBText"><strong>Priest Spells: </strong> This button brings up the selected
+                            character’s priest spells, allowing you
+                            to select which ones to memorize. Note that these spells will not be available for
+                            casting until after you’ve rested.</p>
+                    </div>
+                    <div class="divRMB">
+                        <img src="./images/bg2 icon_settings.png" id="picsRMB">
+                        <p id="picsRMBText"><strong>Options: </strong> This button brings up the Options screen,
+                            allowing you to save your game,
+                            load a previous save, quit the game, or change gameplay, sound, or graphics options.</p>
+                    </div>
+                    <div class="divRMB">
+                        <img src="./images/bg2 icon_settingsMultiplayer.png" id="picsRMB">
+                        <p id="picsRMBText"><strong>Multiplayer Settings: </strong> In Multiplayer, this button brings
+                            up the Character Arbitration
+                            screen, allowing you to configure player permissions, manage characters, and add or
+                            remove players.</p>
+                    </div>
+                    <div class="divRMB">
+                        <img src="./images/bg2 icon_save.png" id="picsRMB">
+                        <p id="picsRMBText"><strong>Quick Save:</strong> Clicking this button saves your game without
+                            needing to open the
+                            Options screen. Note that clicking this button will overwrite your last Quick Save
+                            game.</p>
+                    </div>
+                    <div class="divRMB">
+                        <img src="./images/bg2 icon_helpOption.png" id="picsRMB">
+                        <p id="picsRMBText"><strong>Help: </strong> This button brings up the Help screen, showing a
+                            list of icons with their labels.
+                            This is a good way to remind yourself of what each icon is for during play.</p>
+                    </div>
+                    <div class="divRMB">
+                        <img src="./images/bg2 icon_rest.png" id="picsRMB">
+                        <p id="picsRMBText"><strong>Rest: </strong> When you select Rest, time will pass in the game and
+                            your characters will heal
+                            and regain their memorized spells. When the party rests, if you have selected “Cast
+                            Healing Spells on Rest” in the Gameplay options menu, characters that have healing
+                            spells memorized will cast them on the most injured party members automatically.
+                            Also in the Gameplay options menu, you will find a setting called “Rest Until
+                            Healed.” If this option is turned on, then when you rest, time will pass until your party
+                            is fully healed. Be careful when you use this; if you have a time-based quest, you
+                            might sleep right through it!</p>
+                    </div>
+
+                </div>
+            </article>
+        </section>
+        <section>
+            <header>Wizard Tooltips</header>
+            <article>
+                <p>These are the information windows that pop up whenever you leave your mouse cursor over any
+                    button, creature, or character for a period of time. They display a brief description of that
+                    object’s
+                    name, purpose, or general status. To bring up the tooltips instantly, press the Tab key on your
+                    keyboard while hovering your cursor over a target </p>
+            </article>
+        </section>
+        <section>
+            <header>The Dialogue Window</header>
+            <article>
+                <p>Dialogue occurs with the selected character only; changing the character who is having the
+                    dialogue is not possible until dialogue is exited and restarted with a new character selected. If
+                    multiple characters are selected, the top-most selected character initiates the dialogue. </p>
+                <p><em>Note: Regardless of who is having the dialogue, reaction adjustments will be based on the
+                        “leader” of the group. The “leader” is always the top-most character portrait of all the
+                        characters
+                        that are present in the area.</em></p>
+                <p>There are three sizes for the dialogue window: a two-line size (small), a medium size—the
+                    default size for normal play and used to display system messages and game conditions—and a
+                    large size which is used when dialogue is being displayed. At any time, you may change the size
+                    of this window by pressing the “Page Up” or “Page Down” keys on your keyboard or by pressing
+                    the up or down buttons beside the dialogue window.</p>
+                <p>There is also a scroll bar at the right of the dialogue window that may be used to scroll up or
+                    down in the dialogue queue. Dialogue uses a menu based system where you L-click on what you
+                    want to say from a list. What is available to be said varies according to the reaction adjustment
+                    and Charisma of the party’s leader.</p>
+                <p>You can scroll up using the scroll bar to view previous conversations at any time.</p>
+            </article>
+        </section>
+        <section>
+            <header>Stores, Inns, Taverns, and Temples</header>
+            <article>
+                <p>Throughout the course of the game, you will encounter many non-player characters in the
+                    world who will offer goods or services. These NPCs all use a similar interface for the buying,
+                    selling, and trading of information, goods, and services. When these NPCs are spoken to, a panel
+                    will replace the bottom portion of the screen with buttons for the various services offered.</p>
+                <div class="container">
+                    <div class="divRMB">
+                        <img src="./images/bg2 icon_rent.png" id="picsRMB">
+                        <p id="picsRMBText"><strong>Rent Rooms:</strong> Inns usually have four different types of rooms
+                            in which the player’s
+                            party can rest. The various accommodations vary from Peasant rooms to Deluxe
+                            lodgings. The more expensive the room, the more comfortable your stay and the
+                            more you will heal while you rest. Some inns are limited in the quality of rooms
+                            they can provide.</p>
+                    </div>
+                    <div class="divRMB">
+                        <img src="./images/bg2 icon_purchase.png" id="picsRMB">
+                        <p id="picsRMBText"><strong>Buying and Selling: </strong> This screen is broken into a Buy
+                            window and a Sell window.
+                            Items that the store offers are shown in the Buy window, and items from the
+                            character’s inventory are shown in the Sell window. To select items to purchase, L-
+                            click on them in the Buy window. The item icon will become highlighted, but will
+                            not be purchased until you L-click “Buy” at the bottom of the window. You may
+                            select multiple items, and the current total for all items is shown next to the “Buy”
+                            button. The Sell window works in the same fashion, although the store owner may
+                            have no interest in buying certain items in your inventory (in which case the item
+                            will be “dimmed”). Items that are unusable by the character currently selected are
+                            shaded red. While these items are unusable, they can still be purchased for future
+                            use or for other party members.</p>
+                    </div>
+                    <div class="divRMB">
+                        <img src="./images/bg2 icon_rumours.png" id="picsRMB">
+                        <p id="picsRMBText"><strong>Drinks and Rumors: </strong> Some locations will have a friendly
+                            bartender or innkeeper
+                            tending bar. The items offered at the bar vary from expensive liquors to cheap ales.
+                            Either way, upon ordering a drink, the proprietor may decide to share rumors that
+                            he has heard lately. Be careful, however, as your characters can become intoxicated
+                            if they drink too much.</p>
+                    </div>
+                    <div class="divRMB">
+                        <img src="./images/bg2 icon_pickpocket.png" id="picsRMB">
+                        <p id="picsRMBText"><strong>Steal: </strong> Thieves may have the option of attempting to steal
+                            items out of a shop’s
+                            inventory. The Steal screen works the same as Buying and Selling except that no
+                            gold is exchanged. When an item is selected to be stolen, the Thief’s skills are
+                            checked; if successful, the item is added to the Thief’s inventory. If unsuccessful, the
+                            guards will be called—or worse!</p>
+                    </div>
+                    <div class="divRMB">
+                        <img src="./images/bg2 icon_donate.png" id="picsRMB">
+                        <p id="picsRMBText"><strong>Donate: </strong> You can donate money at a temple by selecting this
+                            option. When you
+                            donate, you may hear a rumor from the priest and the party’s reputation may be
+                            increased depending on the amount of gold donated. It is very helpful to donate
+                            gold if the party’s reputation is suffering.</p>
+                    </div>
+                    <div class="divRMB">
+                        <img src="./images/bg2 icon_heal.png" id="picsRMB">
+                        <p id="picsRMBText"><strong>Healing: </strong> Temples usually offer healing services for a
+                            price. A menu will appear
+                            showing the services offered and how much they cost. Select the service you wish to
+                            receive and the character that is to receive the healing.</p>
+                    </div>
+                    <div class="divRMB">
+                        <img src="./images/bg2 icon_identify.png" id="picsRMB">
+                        <p id="picsRMBText"><strong>Identify: </strong> Shops and temples can usually identify a much
+                            larger variety of items
+                            than your characters will be able to. The cost to have an item identified is 100 gold.
+                            If you cannot select the item from the list, then the proprietor does not have the
+                            ability to identify the item.</p>
+                    </div>
+                </div>
+            </article>
+        </section>
+        <section>
+            <header>Containers (Chests, Tables, and Boxes)</header>
+            <article>
+                <p>Certain items and containers can be picked up or opened in the game. When you move your
+                    cursor over them, they will be highlighted in blue. L-click to access the item or container. When
+                    you access the item or container, the Container panel will come up at the bottom of the screen.
+                    The left side of the panel shows the items that are on the ground or in the container and the
+                    right side is a small portion of the selected character’s inventory. Clicking on items on the left
+                    side of the panel moves the items from the ground or container into the character’s inventory. If
+                    the character’s inventory is full, the item will not be transferred. Note that this process can be
+                    reversed, and items can also be moved from a character’s inventory into a container or onto the
+                    ground by L-clicking on them in the right side of this panel.</p>
+                <p>Certain containers may also contain stacks of gold. Clicking on these stacks will add the gold to
+                    the party’s total</p>
+            </article>
+        </section>
+        <section>
+            <header>Using Buttons and Triggers</header>
+            <article>
+                <p>When playing the game, you will come across several buttons, levers, and similar instruments.
+                    When you place your cursor over these instruments, it will switch to a new cursor type. To use
+                    these instruments, you must be standing close to them, otherwise a message will pop up telling
+                    you that your character is too far away.</p>
+            </article>
+        </section>
+        <section>
+            <header>Map</header>
+            <article>
+                <div class="container">
+                    <div class="divRMB">
+                        <img src="./images/bg2 icon_areaMap.png" id="picsRMB">
+                        <p id="picsRMBText"> L-clicking the map button in the left panel will
+                            bring up the map that the selected character(s)
+                            are currently on. Areas that have been visited are
+                            lit; areas that haven’t are dark. This map may be
+                            an interior dungeon or an outdoor terrain. The
+                            current position(s) of the character(s) are
+                            indicated on the maps by dots.</p>
+                        <p><em>Note: On your map, there will be location icons
+                                marking important places within the area. When
+                                you hover your cursor over the flag, the name of
+                                the location will come up at the top of the screen. You can add your own map notes by
+                                R-clicking anywhere in the map area</em></p>
+                    </div>
+                </div>
+            </article>
+        </section>
+        <section>
+            <header>World Map</header>
+            <article>
+                <div class="container">
+                    <div class="divRMB">
+                        <img src="./images/bg2 icon_worldMap.png" id="picsRMB">
+                        <p id="picsRMBText"> While viewing the area map, you can click on the
+                            World Map button to see a layout of the Sword
+                            Coast. The area you are currently in will be
+                            marked by a shield standard. The areas visited
+                            thus far on the world map will be shown,
+                            locations to which you can travel, and locations to
+                            which you have been given directions but cannot
+                            yet visit. Areas that you have not visited will be
+                            highlighted in blue. Areas to which you cannot
+                            travel will be shown in light brown. Note that you
+                            cannot travel between areas unless you have
+                            traveled to the edge of the current area and brought up the world map with the “Travel” icon. To
+                            move to another area, highlight the area and click on it.</p>
+                    </div>
+                </div> 
+            </article>
+        </section>
+        <section>
+            <header>Journal</header>
+            <p>Quests and major occurences in the game world are entered in the journal. The journal page has
+                four sections, each of which can be organized by date or alphabetically:</p>
+            <header>Quests</header>
+            <p>This journal section records all of your current quests</p>
+            <header>Done Quests</header>
+            <p>When you finish a quest, all related quest entries will be placed in this section, and the old
+                entries will be erased from the Quest section.</p>
+            <header>Journal</header>
+            <p>This section lists major events in your character’s adventure.</p>
+            <header>User</header>
+            <p>This section is for your own journal entries. You can add journal entries here by pressing the
+                “Add” button</p>
+        </section>
+
+       
+
+    </main>
+</body>
+
+</html>
